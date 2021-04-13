@@ -1,0 +1,166 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    line-height: 150%;
+    background-color: #e6e7e7;
+    color: rgb(17, 17, 17);
+  }
+
+  .container {
+    padding: 10px 0px;
+    margin: 50px auto;
+  }
+
+  .tcontainer {
+    padding: 30px 30px;
+    margin: 50px 50px;
+    background-color: white;
+  }
+  .box {
+    padding: 20px;
+    margin: 10px 1px;
+    height: auto;
+    background-color: white;
+    text-align:center;
+  }
+
+  .box1 {
+    padding: 20px;
+    margin: 10px 1px;
+    height: auto;
+    background-color: white;
+    text-align:left;
+  }
+
+  .Fig {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+  
+
+  h1 {
+    margin: 0px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  h2 {
+    font-size: 28px;
+    color: rgb(64, 153, 165);
+  }
+
+  h3 {
+    font-size: 16px;
+    color: rgb(64, 153, 165);
+  }
+
+  p {
+    color: black;
+    font: normal 14px Arial, Verdana, Helvetica;
+    text-align:left;
+  }
+
+.navbar {
+  padding: 0px 10px;
+  background-color: white;
+}
+
+.navbar-brand {
+  background-color: rgb(64, 153, 165);
+  width: 100px;
+  height: auto;
+}
+
+.navbar li {
+  height: 30px;
+  width: 180px;
+  text-align: center;
+  list-style: none;
+  font: normal 14px/1em Arial, Verdana, Helvetica;
+  background-color: white;
+  color:rgb(17, 17, 17);
+}
+
+.navbar li a {
+  color: #000;
+  text-decoration: none;
+}
+
+.navbar a {
+  padding: 10px;
+  color: black;
+  display: block;
+}
+
+.navbar li:hover,
+a:hover {
+  background-color: rgb(179, 222, 228);
+}
+
+.navbar li:hover ul {
+  display:block;
+  background-color: white
+}
+
+.navbar li ul li a:hover {
+  background-color: rgb(179, 222, 228);
+}
+
+.navbar button {
+  visibility: hidden;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  font: normal 12px Arial, Verdana, Helvetica;
+}
+
+tr {
+  text-align: left;
+}
+
+
+@media (max-width: 1000px) {
+  body{
+    background-color: white;
+  }
+  .navbar {
+    padding: 0px 10px;
+    background-color: rgb(64, 153, 165);
+  }
+
+  .navbar button {
+    visibility: visible;  
+  }
+
+  .navbar-nav {
+    float:right;
+  }
+
+  .navbar-brand {
+    background-color: rgb(64, 153, 165);
+    width: 100px;
+    height: auto;
+  }
+  
+  .box1 {
+    padding: 20px;
+    margin: 10px 1px;
+    height: auto;
+    background-color: white;
+    text-align:left;
+  }
+  
+  .Fig {
+    margin: 0px 0px;
+    }
+}

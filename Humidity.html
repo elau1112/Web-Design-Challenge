@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <title>Humidity</title> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">-->
+        <link rel="stylesheet" href="style.css">
+        <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->    
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="/Web-Design-Challenge/index.html"><h1>Latitude</h1></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+      
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">          
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Plots
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="/Web-Design-Challenge/MaxTemperature.html">Max Temperature</a></li>
+                        <li><a class="dropdown-item" href="/Web-Design-Challenge/Humidity.html">Humidity</a></li>
+                        <li><a class="dropdown-item" href="/Web-Design-Challenge/Cloudiness.html">Cloudiness</a></li>
+                        <li><a class="dropdown-item" href="/Web-Design-Challenge/WindSpeed.html">Wind Speed</a></li>                    
+                    </ul>
+                </li> 
+                <li class="nav-item">
+                    <a class="nav-link" href="/Web-Design-Challenge/comparison.html">Comparison</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/Web-Design-Challenge/Data.html">Data</a>
+                </li>     
+            </ul>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                <div class="box1">
+                    <h2><strong>Humidity</strong></h2>
+                    <hr class="my-4">
+                    <section id="figure">                 
+                        <img src="/Web-Design-Challenge/assets/images/Fig2.png" alt="Humidity" style="width:250px;height:250px;">                   
+                    </section>
+                    <p>In the northern hemisphere, cities with a higher latitude tend to have a higher humidity when comparing to cities with a lower latitude. 
+                    In the southern hemisphere, cities with a more negative latitude tend to have a bit lower humidity.
+                    </p>
+                </div>
+                </div>
+
+                <div class="col-md-6">
+                <div class="box">
+                    <h2><strong>Visualizations</strong></h2>
+                    <hr class="my-4">
+                    <div class="row">
+                        <div class="col-sm-3 col-md-6">
+                        <div class = "Fig">
+                            <a href="/Web-Design-Challenge/MaxTemperature.html">                  
+                            <img src="/Web-Design-Challenge/assets/images/Fig1.png" alt="Max Temperature" style="width:125px;height:125px;">
+                            </a>
+                        </div>
+                        </div>                         
+                        <div class="col-sm-3 col-md-6"> 
+                        <div class = "Fig">
+                            <a href="/Web-Design-Challenge/Humidity.html">                  
+                            <img src="/Web-Design-Challenge/assets/images/Fig2.png" alt="Humidity" style="width:125px;height:125px; border:5px solid rgb(64, 153, 165);">
+                            </a>
+                        </div> 
+                        </div>
+                        <div class="col-sm-3 col-md-6">
+                        <div class = "Fig">
+                            <a href="/Web-Design-Challenge/Cloudiness.html">                  
+                            <img src="/Web-Design-Challenge/assets/images/Fig3.png" alt="Cloudiness" style="width:125px;height:125px;">
+                            </a>
+                        </div>
+                        </div>
+                        <div class="col-sm-3 col-md-6"> 
+                        <div class = "Fig">
+                            <a href="/Web-Design-Challenge/WindSpeed.html">                  
+                            <img src="/Web-Design-Challenge/assets/images/Fig4.png" alt="Wind Speed" style="width:125px;height:125px;">
+                            </a>
+                        </div>
+                        </div>
+                    </div>                                           
+                </div>
+                </div>
+            </div>
+            </div>
+
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+            
+    </body>      
+</html>
